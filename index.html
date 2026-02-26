@@ -28,6 +28,11 @@
   .forward-logo-svg { display: block; margin: 0 auto 4px; } .forward-logo-svg svg { height: 38px; width: auto; display: block; }
   .masthead-tagline { font-size: 9.5px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; font-weight: 400; }
 
+  .page-header { text-align: center; padding: 32px 24px 28px; border-bottom: 1px solid var(--border); background: var(--bg); }
+  .page-header-label { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--ink); padding-bottom: 6px; border-bottom: 2px solid var(--gold); margin-bottom: 14px; }
+  .page-header-title { font-family: 'Libre Baskerville', Georgia, serif; font-size: 42px; font-weight: 700; color: var(--ink); line-height: 1.15; margin-bottom: 12px; }
+  .page-header-subtitle { font-size: 15px; color: var(--muted); max-width: 520px; margin: 0 auto; line-height: 1.6; }
+
   /* Loading state */
   .data-loading { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 60px 20px; color: var(--muted); font-style: italic; font-size: 14px; }
   .data-loading-dots { display: inline-flex; gap: 5px; }
@@ -120,6 +125,12 @@
 </header>
 
 
+
+<div class="page-header">
+  <div class="page-header-label">Recipes</div>
+  <h1 class="page-header-title">The Forward Recipe Archive</h1>
+  <p class="page-header-subtitle">Browse recipes from the Forward's food coverage — filter by occasion, dietary needs, complexity, and more.</p>
+</div>
 
 <div class="layout">
   <aside class="sidebar">
